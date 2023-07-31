@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 
 const Stopwatch = () => {
   const [isRunning, setIsRunning] = useState(false);
